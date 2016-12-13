@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redmine.Tests", "Redmine.Tests\Redmine.Tests.csproj", "{F3FB77C5-35DF-4867-A09D-0EE91BEDE8B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redmine", "Redmine\Redmine.csproj", "{67428944-1E7E-4867-81C3-D31A35F888FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedmineTaskListPackage", "RedmineTaskListPackage\RedmineTaskListPackage.csproj", "{515A4CAD-8156-4811-8734-FFB83FD5BF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedmineTaskListPackage.Tests", "RedmineTaskListPackage.Tests\RedmineTaskListPackage.Tests.csproj", "{FDECC0F6-C0B1-44D1-94FC-C40641228631}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3FB77C5-35DF-4867-A09D-0EE91BEDE8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FB77C5-35DF-4867-A09D-0EE91BEDE8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FB77C5-35DF-4867-A09D-0EE91BEDE8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FB77C5-35DF-4867-A09D-0EE91BEDE8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67428944-1E7E-4867-81C3-D31A35F888FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67428944-1E7E-4867-81C3-D31A35F888FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67428944-1E7E-4867-81C3-D31A35F888FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67428944-1E7E-4867-81C3-D31A35F888FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515A4CAD-8156-4811-8734-FFB83FD5BF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515A4CAD-8156-4811-8734-FFB83FD5BF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515A4CAD-8156-4811-8734-FFB83FD5BF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515A4CAD-8156-4811-8734-FFB83FD5BF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDECC0F6-C0B1-44D1-94FC-C40641228631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDECC0F6-C0B1-44D1-94FC-C40641228631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDECC0F6-C0B1-44D1-94FC-C40641228631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDECC0F6-C0B1-44D1-94FC-C40641228631}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

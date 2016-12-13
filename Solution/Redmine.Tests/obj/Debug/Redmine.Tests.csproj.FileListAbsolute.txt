@@ -1,0 +1,11 @@
+F:\_repository\Redmine\Solution\Redmine.Tests\bin\Debug\Redmine.Tests.dll
+F:\_repository\Redmine\Solution\Redmine.Tests\bin\Debug\Redmine.Tests.pdb
+F:\_repository\Redmine\Solution\Redmine.Tests\bin\Debug\nunit.framework.dll
+F:\_repository\Redmine\Solution\Redmine.Tests\bin\Debug\Redmine.dll
+F:\_repository\Redmine\Solution\Redmine.Tests\bin\Debug\Rhino.Mocks.dll
+F:\_repository\Redmine\Solution\Redmine.Tests\bin\Debug\Redmine.pdb
+F:\_repository\Redmine\Solution\Redmine.Tests\bin\Debug\nunit.framework.xml
+F:\_repository\Redmine\Solution\Redmine.Tests\bin\Debug\Rhino.Mocks.xml
+F:\_repository\Redmine\Solution\Redmine.Tests\obj\Debug\Redmine.Tests.csprojResolveAssemblyReference.cache
+F:\_repository\Redmine\Solution\Redmine.Tests\obj\Debug\Redmine.Tests.dll
+F:\_repository\Redmine\Solution\Redmine.Tests\obj\Debug\Redmine.Tests.pdb

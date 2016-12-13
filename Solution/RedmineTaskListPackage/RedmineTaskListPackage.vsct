@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Commands package="guidRedminePkg">
+    <Menus>
+      <Menu guid="guidRedmineCmdSet" id="taskListToolbar" priority="0x0000" type="Toolbar">
+        <Parent guid="guidRedmineCmdSet" id="toolbarGroup"/>
+        <CommandFlag>DefaultDocked</CommandFlag>
+        <Strings>
+          <ButtonText>Redmine</ButtonText>
+        </Strings>
+      </Menu>
+    </Menus>
+    <Groups>
+      <Group guid="guidRedmineCmdSet" id="buttonGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+      </Group>
+    </Groups>
+    <Buttons>
+      <Button guid="guidRedmineCmdSet" id="cmdidGetTasks" priority="0x0100" type="Button">
+        <Parent guid="guidRedmineCmdSet" id="buttonGroup"/>
+        <Icon guid="guidRedmineIcons" id="iconGetTasks"/>
+        <Strings>
+          <ButtonText>GetRedmineTasks</ButtonText>
+          <MenuText>Get Redmine Tasks</MenuText>
+          <ToolTipText>Get Redmine Tasks</ToolTipText>
+        </Strings>
+      </Button>
+      <Button guid="guidRedmineCmdSet" id="cmdidViewIssues" priority="0x0100" type="Button">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_WNDO_OTRWNDWS1"/>
+        <Icon guid="guidRedmineIcons" id="iconViewIssues"/>
+        <Strings>
+          <ButtonText>RedmineIssueViewer</ButtonText>
+          <MenuText>Redmine Issue Viewer</MenuText>
+        </Strings>
+      </Button>
+      <Button guid="guidRedmineCmdSet" id="cmdidProjectSettings" priority="0x0100" type="Button">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_PROJECT_START"/>
+        <Icon guid="guidRedmineIcons" id="iconViewIssues"/>
+        <Strings>
+          <ButtonText>RedmineProjectSettings</ButtonText>
+          <MenuText>Redmine Settings...</MenuText>
+        </Strings>
+      </Button>
+    </Buttons>
+    <Bitmaps>
+      <Bitmap guid="guidRedmineIcons" href="Resources\Icons.png" usedList="iconViewIssues, iconGetTasks"/>
+    </Bitmaps>
+  </Commands>
+  <CommandPlacements>
+    <CommandPlacement guid="guidSHLMainMenu" id="IDG_VS_TASKLIST_PROVIDERLIST" priority="0x0100">
+      <Parent guid="guidRedmineCmdSet" id="taskListToolbar"/>
+    </CommandPlacement>
+    <CommandPlacement guid="guidRedmineCmdSet" id="buttonGroup" priority="0x0200">
+      <Parent guid="guidRedmineCmdSet" id="taskListToolbar"/>
+    </CommandPlacement>
+  </CommandPlacements>
+  <Symbols>
+    <GuidSymbol name="guidRedminePkg" value="{97535913-77a4-4d2a-ba30-6c4702d8ec5c}"/>
+    <GuidSymbol name="guidRedmineCmdSet" value="{9c14cb93-71d4-4508-9135-d5486cc72147}">
+      <IDSymbol name="cmdidGetTasks" value="0x0100"/>
+      <IDSymbol name="cmdidViewIssues" value="0x0101"/>
+      <IDSymbol name="cmdidProjectSettings" value="0x0102"/>
+      <IDSymbol name="buttonGroup" value="0x1020"/>
+      <IDSymbol name="taskListToolbar" value="0x1040"/>
+      <IDSymbol name="toolbarGroup" value="0x1080"/>
+    </GuidSymbol>
+    <GuidSymbol name="guidRedmineIcons" value="{573b1ba9-8443-4b6a-983d-88bbad7bed3d}">
+      <IDSymbol name="iconViewIssues" value="1"/>
+      <IDSymbol name="iconGetTasks" value="2"/>
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>

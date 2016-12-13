@@ -1,0 +1,44 @@
+﻿<local:RedmineIssueViewModel xmlns:local="clr-namespace:RedmineTaskListPackage.ViewModel"
+    AssigneeId = "1"
+    AssigneeName = "Dmitry Popov"
+    AuthorId = "1"
+    AuthorName = "Dmitry Popov"
+    Description = "Just a few words. Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+    DoneRatio = "100"
+    EstimatedHours = "2"
+    Id = "10"
+    PriorityId = "2"
+    PriorityName = "Normal"
+    ProjectId = "1"
+    ProjectName = "Redmine Task List"
+    StatusId = "3"
+    StatusName = "Resolved"
+    Subject = "Design-time Sample Data"
+    TrackerId = "1"
+    TrackerName = "Feature"
+    CreationTime="2014-10-10T16:40:32Z"
+    LastUpdateTime="2014-10-16T19:11:23Z">
+    <local:RedmineIssueViewModel.Journals>
+        <local:RedmineJournalViewModel
+            Id = "1"
+            AuthorId = "1"
+            AuthorName = "Dmitry Popov"
+            CreationTime = "2014-10-16T19:08:40Z"
+            Notes = "One short note"
+            />
+        <local:RedmineJournalViewModel
+            Id = "2"
+            AuthorId = "1"
+            AuthorName = "Dmitry Popov"
+            CreationTime = "2014-10-16T19:11:23Z"
+            Notes = "And another one"
+            />
+        <local:RedmineJournalViewModel
+            Id = "2"
+            AuthorId = "1"
+            AuthorName = "Dmitry Popov"
+            CreationTime = "2014-10-16T19:11:23Z"
+            Notes = "And one more"
+            />
+    </local:RedmineIssueViewModel.Journals>
+</local:RedmineIssueViewModel>

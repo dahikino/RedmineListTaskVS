@@ -1,0 +1,4 @@
+F:\_repository\Redmine\Solution\Redmine\bin\Debug\Redmine.dll
+F:\_repository\Redmine\Solution\Redmine\bin\Debug\Redmine.pdb
+F:\_repository\Redmine\Solution\Redmine\obj\Debug\Redmine.dll
+F:\_repository\Redmine\Solution\Redmine\obj\Debug\Redmine.pdb
